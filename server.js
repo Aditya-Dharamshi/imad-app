@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
 app.ger('/article-one', function (req,res) {
     res.send('Article one requested and will be served here');
 });
-
+ 
 app.ger('/article-two',function (req,res) {
     res.send('Article two requested and will be served here');
 });
